@@ -10,7 +10,7 @@ const Item = ({ img, title, date }: Props) => {
   return (
     <div className="w-full">
       <div className="cursor-pointer">
-        <div className="h-[350px] md:h-[250px] lg:h-[180px] grid overflow-hidden">
+        <div className="h-[350px] md:h-[250px] lg:h-[180px] overflow-hidden">
           <img
             src={img}
             alt={title}

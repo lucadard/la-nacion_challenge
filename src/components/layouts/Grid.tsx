@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Item from '../ui/Item'
+import Item from './Item'
 import { getArticles, Article, Tag } from '../../services/articles_api'
 import { useData } from '../context/DataContext'
 
